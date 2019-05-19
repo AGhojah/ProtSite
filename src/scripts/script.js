@@ -7,5 +7,5 @@ window.onload = function(){
     setTimeout(()=>{
         preloader.style.transition = "opacity 1s ease-out";
         preloader.style.opacity = '0';
-    }, 2000);
+    }, 10);
 };
