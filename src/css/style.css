@@ -1,0 +1,23 @@
+
+
+#preloader {
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0%;
+    z-index: 99999;
+    background-color: lightblue;
+}
+
+#spinner{
+    background-image: url("/src/imgs/spinner.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
