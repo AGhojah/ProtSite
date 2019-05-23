@@ -4,7 +4,7 @@
 let preloader = document.getElementById('preloader');
 
 // Time in seconds for fadeout effect
-let j = 2;
+let j = 1;
 
 window.onload = function(){
     setTimeout(()=>{
