@@ -169,7 +169,7 @@ section{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    word-spacing: 10px;
+    word-spacing: 7px;
     display: inline-block;
     transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
@@ -178,12 +178,24 @@ section{
     -o-transform: rotate(270deg);
     position: relative;
     top: 60px;
-    left: -60px;
+    left: -45px;
 }
 
 .vertical-heading h2 {
     margin: 0 0 0 35px;
     font-size: 42px;
     font-weight: 100;
-    line-height: 45px;
+    line-height: 50px;
+}
+
+#about-right p:first-child{
+    margin-bottom: 30px;
+}
+
+#about-bottom{
+    margin-top: 60px;
+}
+
+#about-bottom img{
+    margin: 0 auto;
 }
